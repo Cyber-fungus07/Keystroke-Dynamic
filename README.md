@@ -35,19 +35,6 @@ Across 10 login attempts by the same legitimate user:
  Rejected  →  2–3 times
 ```
 
-### Probability Breakdown
-
-| Scenario | Probability |
-|---|---|
-| Legitimate user verified on first attempt | ~73–75% |
-| Legitimate user verified within 2 attempts | ~93–94% |
-| Legitimate user verified within 3 attempts | ~98% |
-| Impostor incorrectly verified | ~25–27% ⚠️ |
-
-> Both rates are constrained by the same root cause — 5 enrollment samples per user is not enough for production.
-
----
-
 ## Known Limitation — Data Size
 
 The ceiling with 5 samples per user is ~80%. No further tuning will move it meaningfully.
