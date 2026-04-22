@@ -1,4 +1,4 @@
-# KeyPrint Auth — KNN Biometric Classifier
+# Keystroke Dynamic — KNN Biometric Classifier
 
 > **ML Research Repository:** Contains the core KNN classifier, dataset, and evaluation scripts for keystroke-based authentication.
 
